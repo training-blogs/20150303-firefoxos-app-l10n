@@ -17,5 +17,16 @@
   },
   "installs_allowed_from": [
     "*"
-  ]
+  ],
+  "default_locale": "en",
+  "locales": {
+    "es": {
+      "name" : "Probador de traducción",
+      "description" : "Para ayudar con la localización"
+    },
+    "fr": {
+      "name" : "Testeur de traduction",
+      "description" : "Pour aider avec la localisation"
+    }
+  }
 }
