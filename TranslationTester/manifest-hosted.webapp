@@ -20,17 +20,13 @@
   ],
   "default_locale": "en",
   "locales": {
-    "en-US": {
-      "name": "TranslationTester",
-      "description": "This is a testing app for Firefox OS translations"
-    },
     "es": {
-      "name": "Tester Traducción",
-      "description": "Tester Traducción bueno"
+      "name" : "Probador de traducción",
+      "description" : "Para ayudar con la localización"
     },
-    "sv": {
-      "name": "TranslationTester",
-      "description": "Det här är en test-app för Firefox OS översättningar"
+    "fr": {
+      "name" : "Testeur de traduction",
+      "description" : "Pour aider avec la localisation"
     }
   }
 }
