@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "name": "TranslationTester Gaia",
+  "launch_path": "/index.html",
+  "description": "This is a testing app for Firefox OS translations",
+  "icons": {
+    "32": "/images/logo32.png",
+    "60": "/images/logo60.png",
+    "90": "/images/logo90.png",
+    "120": "/images/logo120.png",
+    "128": "/images/logo128.png",
+    "256": "/images/logo256.png"
+  },
+  "developer": {
+    "name": "Robert Nyman",
+    "url": "http://robertnyman.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "locales": {
+    "es": {
+      "name" : "Probador de traducción Gaia",
+      "description" : "Para ayudar con la localización"
+    },
+    "fr": {
+      "name" : "Testeur de traduction Gaia",
+      "description" : "Pour aider avec la localisation"
+    }
+  }
+}
