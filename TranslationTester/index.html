@@ -10,18 +10,15 @@
     <title>TranslationTester</title>
     <base target="_blank">
 
-    <!-- Localization -->
-    <meta name="defaultLanguage" content="en-US">
-    <meta name="availableLanguages" content="en-US, es, fr">
-    <link rel="localization" href="locales/app.{locale}.properties">
-    <script type="application/javascript" src="js/gaia/l10n.js"></script>
+    <link rel="resource" type="application/l10n" href="locales/locales.ini" />
+    <script src="js/l10n/l10n.js"></script>
 </head>
 
 <body>
 
     <section role="region">
         <header>
-            <h1 data-l10n-id="app-heading"></h1>
+            <h1 data-l10n-id="app-heading">TranslationTester</h1>
         </header>
     </section>
 
@@ -30,7 +27,7 @@
         <h2 data-l10n-id="label1" data-l10n-args='{ "user": "Guest" }'></h2>
 
         <blockquote>
-            <p data-l10n-id="winter-is-coming"></p>
+            <p data-l10n-id="winter-is-coming">Winter is coming</p>
         </blockquote>
 
         <p data-l10n-id="helloWorld"></p>
