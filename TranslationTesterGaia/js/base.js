@@ -32,3 +32,14 @@ navigator.mozL10n.once(function() {
     console.log(navigator.mozL10n.language.code);
     console.log(navigator.mozL10n.language.direction);
 });
+
+var button2 = document.querySelector("#button2");
+button2.onclick = function() {
+    navigator.mozL10n.ready(function() {
+        var d = new Date();
+        var f = new navigator.mozL10n.DateTimeFormat();
+        var format = navigator.mozL10n.get('dateFormat');
+        var formatted = f.localeFormat(d, format);
+        alert(formatted);
+    });
+};
