@@ -41,5 +41,9 @@ button2.onclick = function() {
         var format = navigator.mozL10n.get('dateFormat');
         var formatted = f.localeFormat(d, format);
         alert(formatted);
+
+        console.log('localeString: ' + f.localeString(d));
+        console.log('localeDateString: ' + f.localeDateString(d));
+        console.log('localeTimeString: ' + f.localeTimeString(d));
     });
 };
