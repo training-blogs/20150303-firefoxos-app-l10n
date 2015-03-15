@@ -9,4 +9,3 @@ Following the Firefox OS l10n guides:
 - "Localizing Firefox OS Apps" https://developer.mozilla.org/en-US/Apps/Build/Localization/Localizing_Firefox_OS_Apps
 
     `/TranslationTesterGaia`
-
