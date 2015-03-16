@@ -45,5 +45,7 @@ button2.onclick = function() {
         console.log('localeString: ' + f.localeString(d));
         console.log('localeDateString: ' + f.localeDateString(d));
         console.log('localeTimeString: ' + f.localeTimeString(d));
+
+        alert(f.fromNow(d));
     });
 };
